@@ -1,0 +1,157 @@
+#container {
+	width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+
+#content {
+	float: right;
+	text-align:center;
+	width:700px;
+  margin: 15px;
+  padding: 0;
+  border: 0;
+  line-height: 1.5;
+  font-size: 100%;
+  background-color: #000000;
+	font-family: , "helvetica";
+	color: #FFFFFF;
+}
+p{line-height: ;
+	text-align:center;
+
+}
+h1 span {
+	width:800;
+	height:200;
+	text-align: center;
+	margin:5px, 0,0,0; 
+	padding:10px;
+	border:3px;
+	border-style: solid;
+	text-align: center;
+	border-color:#708090;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	color: #000000;
+}
+
+#header {
+	width:1000;
+	height:50;
+	text-align: center;
+	margin:5px;
+	padding: 5px;
+	}
+
+.link-style li {
+	display: inline;
+	margin: 0 12px;
+}
+
+.image-group {
+	position: relative;
+	margin:15px 0 0 0;
+}
+
+.image-group .caption {
+	position: absolute;
+	background-color: #FF4500;
+	top: 0px;
+	text-align: center;
+	width: 700px;
+	color: #000000;
+}
+
+h2, h3, h4 {
+	width: 700;
+	height: 150;
+	margin:5px 0 0 0; 
+	padding:10px;
+	font-family: inherit;
+	color: #FF4500;
+	font-weight: bold}
+
+#what-p, #why-list, #how-list{
+	width: 150;
+	height:40 ;
+	margin-left: 40;
+	text-align: center;
+	font-family: inherit;
+	color: #B8860B;
+}
+
+li {
+	list-style-type: none;
+	width: 150;
+	height:40 ;
+	font-family: inherit;
+	color: inherit;
+}
+
+#history-link {
+	width: 80;
+	height: 20;
+	margin-left: 60;
+	font-family: inherit;
+	color: inherit; 
+	font: italic
+}
+
+#watch-vid-body-link {
+	width: 80;
+	height: 20;
+	margin-left: 120;
+	font-family: inherit;
+	color: inherit; 
+	font: italic
+}
+
+#tut-vid-body-link {
+	width: 80;
+	height:20 ;
+	margin-left: 80;
+	font-family: inherit;
+	color: inherit; 
+	font: italic
+}
+
+a:link {color: #009900;}
+a:visited {color: #999999;}
+a:hover {color: #333333;}
+a:focus {color: #333333;}
+a:active {color: #009900;}
+
+	#ul-style {
+	font: italic;
+	color: #FF0000;
+	}
+
+#sidebar {
+	float: left;
+	width:250px;
+	font: italic;
+	border: 5px;
+  border-color: #FF0000
+	}
+
+	#mon, #tue, #wed {
+		text-align: center;
+		font-size: medium;
+	}
+
+#footer {
+	text-align: center;
+	width:880;
+	height:50;
+	margin:10px, 10px, 5px;
+	padding: 5px;
+	font: italic;
+	border: 10px;
+  border-color: #FF0000;
+  clear: both;
+	}
+

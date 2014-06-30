@@ -1,0 +1,144 @@
+#container {
+	/*centered
+	how do i want this to look?*/
+	float: right;
+	text-align: left;
+	width:900px;
+  margin: 15px;
+  padding: 0;
+  border: 0;
+  line-height: 1.5;
+  font-size: 100%;
+  background-color: #7FFFD4;
+	font-family: , "helvetica";
+	color: #000000;
+}
+
+h1 span {
+	width:800;
+	height:200;
+	margin:5px 0 0 0; 
+	padding:10px;
+	border:3px;
+	border-style: double;
+	text-align: center;
+	border-color:#DC143C;
+	background-color: #778899;
+	font-weight: bold;
+	color: #000000;
+}
+
+#header {
+	/*top, right, bottom, left*/
+	width:880;
+	height:50;
+	margin:0px, 40px, 10px 40px;
+	padding: 5px;
+	font: italic;
+	border-top-style: 5px;
+  border-color: #FF0000;
+	}
+
+/*save where?!*/
+#iamge{
+	margin:0px, 40px, 10px 40px;
+	padding: 5px;
+	z-index: 1
+}
+#?{
+	margin:300px, 500px, 10px 10px;
+	padding: 5px;
+	z-index: 2
+}
+
+h2 {
+	width: 700;
+	height: 150;
+	margin:5px, 0,0,0; 
+	padding:10px;
+	font-family: inherit;
+	color: inherit;
+	font-weight: bold}
+
+#events {
+	width: 1.5;
+	height:40 ;
+	margin-left: 40
+	text-align: center;
+	font-family: inherit;
+	color: inherit;
+}
+
+li {
+	list-style-type: none;
+	width: 1.5;
+	height:40 ;
+	margin-left: 60;
+	text-align: center;
+	font-family: inherit;
+	color: inherit;
+}
+
+#read-link {
+	width: 80;
+	height: 20;
+	margin-left: 60;
+	font-family: inherit;
+	color: inherit; 
+	font: italic
+}
+
+#post-link {
+	width: 80;
+	height: 20;
+	margin-left: 120;
+	font-family: inherit;
+	color: inherit; 
+	font: italic
+}
+
+.pseudo-link a:link {color: #009900;}
+.pseudo-link a:visited {color: #999999;}
+.pseudo-link a:hover {color: #333333;}
+.pseudo-link a:focus {color: #333333;}
+.pseudo-link a:active {color: #009900;}
+
+#ready-p {
+	width: 200;
+	height: 20;
+	margin-left: 100;
+	font-family: inherit;
+	color: inherit; 
+	font: italic
+}
+
+.reverse {
+	display:block;
+	text-align: center;
+  line-height: 1.5;
+  font-size: 100%;
+  background-color: #7FFFD4;
+	font-weight: bold;
+	color: #000000;
+}
+
+#footer {
+	width:880;
+	height:50;
+	margin:10px;
+	padding: 5px;
+	font: italic;
+	border: 10px;
+  border-color: #FF0000;
+	}
+/*archive?*/
+#sidebar {
+	float: left;
+	width:270;
+	height:700;
+	margin:10px;
+	padding: 5px;
+	font: italic;
+	border: 5px;
+  border-color: #FF0000
+	}
