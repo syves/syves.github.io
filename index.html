@@ -1,7 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="sun.css">
+  <title>I AM THE SUN</title>
+ </head>
+
 <html>
 <body>
-Hello DBC!
-<a href="blog-posts/week1_technical.html">My Design Blog</a>
-<a href="blog-posts/week1_cultural.html">Culture is key Blog</a>
+	<header>
+		<ul class="link-style">
+			<li><a href="blog-posts/week1_technical.html">My Design blog</a></li>
+			<li><a href="blog-posts/week1_cultural.html">Culture blog</a></li>
+		<ul>	
+	</header>
+	<div id="sun" class="transition-group">
+		<p class="who hover">I AM THE SUN</p>
+		<p class="when active">when I am the sun I radiate my creativity</p>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script>
+		$('.transition-group').click(function() {
+			$(this).toggleClass('active');
+		});
+	</script>
 </body>
 </html>
+
