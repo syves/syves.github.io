@@ -1,0 +1,181 @@
+#container {
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+
+#content {
+  float: right;
+  text-align:center;
+  width:70%;/*700px*/
+  margin: 15px;
+  padding: 0;
+  border: 0;
+  line-height: 1.5;
+  font-size: 1.2em;
+  background-color: #FFE4E1;
+  font-family: , "helvetica";
+  color: #FFE4E1;
+}
+p{line-height: ;
+  text-align:center;
+  background-color: #7FFFD4;
+  color:#000000;
+}
+
+.post-info li{
+display:inline;
+color:#FFFFFF;
+margin-right: 0 auto;
+margin-left: 0 auto;
+}
+#topic {
+  width:800;
+  height:200;
+  text-align: right;
+  margin:5px, 0,0,0; 
+  padding:10px;
+  border:10px;
+  border-style: double;
+  text-align: center;
+  border-color:#7FFFD4;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  color: #000000;
+}
+
+#header {
+  width:100%;/*1000*/
+  height:50;
+  text-align: center;
+  margin:5px;
+  padding: 5px;
+  background-color: #7FFFD4;
+  }
+
+.link-style li {
+  display: inline;
+  margin: 0;
+  width: 100px;
+}
+li #topic {
+  width:100px;
+  background: red;
+
+}
+
+h2 {
+  width: 97%;/*70%*/
+  height: 150;
+  margin:5px 0 0 0; 
+  padding:10px;
+  font-family: inherit;
+  background-color:#000000;
+  color: #FFFFFF;
+  font-weight: bold}
+
+li {
+  list-style-type: none;
+  width: 15%;/*150*/
+  height:40 ;
+  font-family: inherit;
+  color: inherit;
+}
+
+a:link {color: #009900;}
+a:visited {color: #999999;}
+a:hover {color: #333333;}
+a:focus {color: #333333;}
+a:active {color: #009900;}
+
+  #ul-style {
+  font: italic;
+  color: #FF0000;
+  }
+
+#sidebar {
+  float: left;
+  width:25%;/*250*/
+  left: 10px;
+  font: italic;
+  border: 5px;
+  border-color: #FF0000;
+  color: #FFFFFF;
+  }
+
+  #archive {
+    text-align: center;
+    font-size: 1em;
+  }
+
+#footer {
+  text-align: center;
+  width:100%;/*88*/
+  height:50;
+  margin:10px, 10px, 5px;
+  padding: 5px;
+  font: italic;
+  border: 10px;
+  border-color: #FF0000;
+  clear: both;
+  background-color: #7FFFD4;
+  }
+
+/* Smartphones (portrait) ----------- */
+/*set breakpoint*/
+@media only screen and (max-device-width : 320px) {
+  #container{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+  }
+  #content {
+    font-size: 1em;
+    float:none;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+  }
+  #header{
+    margin-top: 0;
+    width:55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+  }
+  #footer{
+    width:55%;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #sidebar {
+    float:none;
+    width:55%;
+    background: lime;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+  } 
+  #h1{
+    width:55%;
+    height:55%;
+    font-size: .89em;
+  }
+  #h2 {
+    float:none;
+    width:55%;
+    margin-top: 5px
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
