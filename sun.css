@@ -6,7 +6,9 @@ body{
 	content: 100%;
 	width: 1400px;
 	font-size: 30px;
-	background-size: 100%
+	background-size: 100%;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 2px 2px #000000;
 }
 
 header{
