@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>My Design Blog</title>
+		<link rel="stylesheet" href="../stylesheet.css">
+	</head> 
+	<body>
+		<div id="container">
+			<div id="header">
+				<ul class="link-style">
+					<li><a href="https://www.">
+						About</a></li>
+					<li><a href="https://www.">Blog</a></li>
+					<li><a href="https://www.">Comment</a></li>
+					<li><a href="https://www.">Subscribe</a></li>
+				</ul>
+
+			</div>
+			<div id="content">
+				<div class="image-group">
+					<img src="https:" alt="My Image">
+					<p class="caption">Blogging is great</p> 
+				</div>
+
+			<h1><span>Audible.com</span/></h1>
+				<p id="what-p">some text</p> 
+				<ul class="link-style">
+					<li><a id="history-link" href="http:">go to some text</a></li>
+				</ul>
+				<p id="name">Posted by: Shakrah Yves</p> 
+				<p id="date">Posted 6/30/14</p> 
+
+			<h1><span>Collabedit</span/></h1>
+				<p id="what-p">some text</p> 
+				<ul class="link-style">
+					<li><a id="history-link" href="http:">go to some text</a></li>
+				</ul>
+				<p id="name">Posted by: Shakrah Yves</p> 
+				<p id="date">Posted 6/30/14</p> 
+
+			<h1><span>Github</span/></h1>
+				<p id="what-p">some text</p> 
+				<ul class="link-style">
+					<li><a id="history-link" href="http:">go to some text</a></li>
+				</ul>
+				<p id="name">Posted by: Shakrah Yves</p> 
+				<p id="date">Posted 6/30/14</p> 
+
+			</div>
+
+			<div id="sidebar">
+				<h3 id="archive">Archive</h3>
+				<ul class="link-style">
+					<li><a id="history-link" href="http:">blog topic/date
+					</a></li>
+				</ul>
+			</div>
+
+			<div id="footer", class="link-style">
+
+				<li><a href="...">back to top button?</a>
+					<li>
+				<ul>
+					<li><a href="http://www.">other blogs</a></li>
+					<li><a href="http:">more links</a></li>
+				</ul?
+			</div>
+
+		</div> <!--container-->
+	</body>
+</html>
+
+<!--
+				<a id="comments-link" class="pseudo-link" href=".....">Read comments...if allowed</a>
+
+				<a id="post-link" class="pseudo-link" href="...">post a comment?</a>
+
+			<div id="sidebar">
+				<div id="sunscribe">..</div>
+				<div id="Post-new">..</div>-->
+
+

@@ -9,6 +9,7 @@ body{
 	background-size: 100%;
 	font-family: 'Dancing Script', cursive;
 	text-shadow: 2px 2px #000000;
+	background-color: #000000;
 }
 
 header{
@@ -17,14 +18,18 @@ header{
 
 .link-style li {
 	/*display: inline;*/
-	margin: 45px;	
+	margin-before: 45px;	
+	margin-after: 45px;
 	list-style-type: none;
+	/*padding: 5px;*/
 
 }
 /*unvisited*/
 a {
 	color: #FFFFFF;
-	text-decoration: none
+	text-decoration: none;
+	padding:;
+	line-height: ;
 }
 
 .transition-group p { opacity: 0.0;
