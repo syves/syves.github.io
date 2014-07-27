@@ -24,7 +24,7 @@
 p li{line-height: ;
   text-align:center;
   background-color: ;
-  color:#000000;
+  color:#FFFFFF;
   list-style-type: lower-greek;
 }
 
@@ -57,7 +57,7 @@ list-style-type: none;
   text-align: center;
   margin:;
   padding: 5px;
-  background-color: #333333;
+  background-color: #7FFFD4;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   }
@@ -79,10 +79,12 @@ li #topic {
 
 li {
   list-style-type: none:;
+  text-align: left;
 }
 
 p{
   list-style-type: none:;
+  color: #000000;
 }
 
 #back {
