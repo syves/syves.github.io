@@ -25,30 +25,37 @@
 				<li><p>A module that provides methods for Collection objects:like Arrays and Hashes</p></li>
 				<li><p>We get to be lazy and have simple looking code!</p></li>
 				<li><p>Let's avoid loops with map, inject and reduce!</p></li>
-				<li><p></p></li>
-				<li><p>!!!!!!!Woot!!!!!</p></li>
 			</ul>
 		</div>
+
 		<h3>What does map do?</h3>
-			<div class="left-align">
+		<div class="left-align">
 			<ul>
 				<li><p>For each element in your collection
 					map transforms the element and returns it in a new array</p></li>
 				<li><p>.map returns a new array with your transformed collection</p></li>
+			<ul/>
+		</d>
+			<ul id="code">
 				<li><p>my_friends = ["sue", "jess", "kim"]</p></li>
 				<li><p> my_friends_caps = my_friends.map { </p></li>
 				<li><p>|name| print "#{name.upcase}!" }</p></li>
 				<li><p> => returns ["SUE!", "JESS!", "KIM!]</p></li>
+			</ul>
+			<ul>
 				<li><p>No mutation!</p></li>
 				<li><p>print my_friends = ["sue", "jess", "kim"]</p></li>
 				<li><p></p></li>
 				<li><p>.each changes the element  temporally and returns the original collection passed to it.</p></li>
+			</ul>
+			<ul id="code">
 				<li><p>["sue", "jess", "kim"].each { </p></li>
 				<li><p>|name| print "#{name.upcase}! " }</p></li>
 				<li><p> temporarily changes values to "SUE! JESS! KIM! </p></li>
 				<li><p> => returns ["sue", "jess", "kim"]</p></li>
 			</ul>
 		</div>
+
 		<h3>Why should I use it?</h3>
 			<ul>
 				<li><p>.map does not mutate your original collection</p></li>
@@ -64,32 +71,42 @@
 				<li><p>my_array = Array.new </p></li>
 			</ul>
 		</div>
+		
 		<h3>Why should I use it?</h3>
 		<div class="left-align">
 			<ul>
 				<li><p>1. You have a bunch of elements that you want to keep in their original order</p></li>
 				<li><p>2.You want access to these elements by index</p></li>
 				<h3>Examples:</h3>
+			</ul>
+			<ul id="code">
 				<li><p> my_array = ["shakrah", "yves"]</p></li>
 				<li><p>#I want to get my first name and Capitalized it</p></li>
+			</ul>
+				
+			<ul id="code">
 				<li><p>my_array[0].capitalize #0 is the first element :)</p></li>
 				<li><p>=> returns "Shakrah"</p></li>
+			</ul>
+			<ul>
 				<li><p>#I want to make sure all names are capitalized...</p></li>
 				<li><p>1. I pass an array of names to my method "names"</p></li>
 				<li><p>2. I get the element in my array at index described by "[]" </p></li>
 				<li><p>3. I add the first name code with a space " " and the last name code</p></li>
 				<li><p>4. I print the result when 
 						I call the method</p></li>
+			</ul>
+			<ul id="code">
 				<li><p>def names(array)</p></li>
 				<li><p>array[0].capitalize + " " + array[1].capitalize </p></li>
 				<li><p>end</p></li>
 				<li><p>print names(["shakrah", "yves"])</p></li>
 				<li><p>=> returns "Shakrah Yves"</p></li>
-				</ul>
-			</div>	
+			</ul>
+		</div>	
 				
 			<h2>What is a hash?</h2>
-			<div class="centered">
+			<div class="left-align">
 				<ul>
 					<li><p> my_hash = {} </p></li>	
 					<li><p>my_hash = Hash.new</p></li>
@@ -103,15 +120,16 @@
 				<li><p>You want a set of properties with a key(name) and a value("Shakrah"</p></li>
 				<li><p>You can modify these keys/values and/or add new keys/values to your Hash</p></li>
 				<li><p>You do not need the order of the properties in your hash to stay constant...hashes are not ordered or order-reliable</p></li>
+			</ul>
+			<ul id="code">
 				<li><p> print my_cats = {benny: "grey", polly: "black", "white", medea: "so fluffy"}</p></li>
 				<li><p>=> could return...notice the order!</p></li>
 				<li><p>{polly: "black", "white", medea: "so fluffy", benny: "grey",}</p></li>
-			
 			</ul>
 		</div>
 		<h3>Examples</h3>
 		<div class="left-align">
-			<ul>
+			<ul id="code">
 				<li><p>my_family = {me: "Shakrah Yves", dad: "Darren Thomas", mom: "Selina Williams",}</p></li>
 				<li><p>#I want to get my mom's name</p></li>
 				<li><p>1. my_family[mom]</p></li>
@@ -123,11 +141,9 @@
 				<li><p>=> returns "Prince-charming"</p></li>
 			</ul>	
 		</div>
-
 			<div class="post-info">
 				<ul>
-					<li><p>Posted by: Shakrah Yves</p></li> 
-					<li><p>Posted 7/18/14</p></li>
+					<li><p>Posted by: Shakrah Yves, Date Posted 7/18/14</p></li>
 				</ul>
 			</div>
 
