@@ -1,3 +1,4 @@
+=begin
 #lets make a class
 #what should I make a class for?
 #classes are good for modeling a real world object
@@ -32,7 +33,7 @@ class CodeMonkey
 end
 
 shakrah = CodeMonkey.new
-
+=end
 #Step 4. cool lets call our method write_code on Shakrah
 class CodeMonkey
 	def write_code(string="Hello, world!")
@@ -54,7 +55,7 @@ print Maria.write_code("Ruby has soo many bulit in methods!")
 #Suprrise !! => Ruby has soo many bulit in methods!
 #Have we modified our object?
 print Maria.write_code # returns => Hello world!
-print Shakrah.write_code # returns => Hello world!
+print shakrah.write_code # returns => Hello world!
 
 #Nope! Just like in real life Maria and I can write seperate code
 #We have seperate characteristics unique to us, 
