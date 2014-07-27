@@ -73,12 +73,11 @@ li #topic {
 }
 
 li {
-  list-style-type: none:;
-
+  list-style-type: none;
 }
 
 p{
-  list-style-type: none:;
+  list-style-type: none;
   text-align: left;
   height: 45;
   font-size: large;
