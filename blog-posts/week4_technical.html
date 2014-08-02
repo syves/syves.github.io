@@ -29,11 +29,11 @@
 		</div>
 
 		<h3>What does map do?</h3>
-		<div class="left-align">
-			<ul>
-				<li><p>For each element in your collection
+		<div>
+			<ul id="code">
+				<li><p>#For each element in your collection
 					map transforms the element and returns it in a new array</p></li>
-				<li><p>.map returns a new array with your transformed collection</p></li>
+				<li><p>#.map returns a new array with your transformed collection</p></li>
 			<ul/>
 		</d>
 			<ul id="code">
@@ -42,31 +42,30 @@
 				<li><p>|name| print "#{name.upcase}!" }</p></li>
 				<li><p> => returns ["SUE!", "JESS!", "KIM!]</p></li>
 			</ul>
-			<ul>
-				<li><p>No mutation!</p></li>
+			<ul id="code">
+				<li><p>#No mutation!</p></li>
 				<li><p>print my_friends = ["sue", "jess", "kim"]</p></li>
-				<li><p>.each changes the element  temporally and returns the original collection passed to it.</p></li>
+				<li><p>#.each changes the element  temporally and returns the original collection passed to it.</p></li>
 			</ul>
 		<div>
 			<ul id="code">
 				<li><p>["sue", "jess", "kim"].each { </p></li>
 				<li><p>|name| print "#{name.upcase}! " }</p></li>
-				<li><p> temporarily changes values to "SUE! JESS! KIM! </p></li>
+				<li><p># temporarily changes values to "SUE! JESS! KIM! </p></li>
 				<li><p> => returns ["sue", "jess", "kim"]</p></li>
 			</ul>
 		</div>
-		<div>
+		<div class="left-align">
 		<h3>Why should I use it?</h3>
 			<ul>
 				<li><p>.map does not mutate your original collection</p></li>
 				<li><p>.map always returns an array</p></li>
 			</ul>	
-		</div>
-			<h1 id="topic"></h1> 
+		</div> 
 			<h2>Arrays vs. Hashes!</h2>
-		<div class="left-align">
-			<ul>
-				<h2>What is an array?</h2>
+		<div>
+			<ul id="code">
+				<h3>What is an array?</h3>
 				<li><p>my_array = []</p></li>
 				<li><p>my_array = Array.new </p></li>
 			</ul>
@@ -75,8 +74,8 @@
 		<h3>Why should I use it?</h3>
 		<div class="left-align">
 			<ul>
-				<li><p>1. You have a bunch of elements that you want to keep in their original order</p></li>
-				<li><p>2.You want access to these elements by index</p></li>
+				<li><p>You have a bunch of elements that you want to keep in their original order</p></li>
+				<li><p>You want access to these elements by index</p></li>
 				<h3>Examples:</h3>
 			</ul>
 			<ul id="code">
@@ -88,7 +87,7 @@
 				<li><p>my_array[0].capitalize #0 is the first element :)</p></li>
 				<li><p>=> returns "Shakrah"</p></li>
 			</ul>
-			<ul>
+			<ul id="code">
 				<li><p>#I want to make sure all names are capitalized...</p></li>
 				<li><p>1. I pass an array of names to my method "names"</p></li>
 				<li><p>2. I get the element in my array at index described by "[]" </p></li>
@@ -106,8 +105,8 @@
 		</div>	
 				
 			<h2>What is a hash?</h2>
-			<div class="left-align">
-				<ul>
+			<div>
+				<ul id="code">
 					<li><p> my_hash = {} </p></li>	
 					<li><p>my_hash = Hash.new</p></li>
 				</ul>
@@ -132,13 +131,13 @@
 			<ul id="code">
 				<li><p>my_family = {me: "Shakrah Yves", dad: "Darren Thomas", mom: "Selina Williams",}</p></li>
 				<li><p>#I want to get my mom's name</p></li>
-				<li><p>1. my_family[mom]</p></li>
-				<li><p>=> returns "Selina"</p></li>
+				<li><p>my_family[mom]</p></li>
+				<li><p>#=> returns "Selina"</p></li>
 				<li><p>#I want to add my boyfriend(fiancé?a girl can hope and plot!!!hehehe)</p></li>
-				<li><p>2.my_family[fiancé]= "Prince-charming"</p></li>
+				<li><p>my_family[fiancé]= "Prince-charming"</p></li>
 				<li><p>#Lets see if my prince arrived</p></li>
-				<li><p>1. my_family[fiancé]</p></li>
-				<li><p>=> returns "Prince-charming"</p></li>
+				<li><p>my_family[fiancé]</p></li>
+				<li><p>#=> returns "Prince-charming"</p></li>
 			</ul>	
 		</div>
 			<div class="post-info">

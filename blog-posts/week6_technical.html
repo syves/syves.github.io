@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>@Instance</title>
+		<link rel="stylesheet" href="./week6_technical.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+	</head> 
+	<body>
+		<div id="container">
+			<div id="header">
+				<ul class="link-style">
+					<li><a href="http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/110-instance-variables">RubyMonk-Variables tutorial</a></li>
+					<li><a href="http://www.rubyist.net/~slagell/ruby/instancevars.html">Instance simply put</a></li>
+				</ul>
+			</div>
+		<div id="content">
+			<h1 id="topic">Instant-ly Variables</h1> 
+			<h2>why and how to make use an @instance variable</h2>
+			<h3>Why?!</h3>
+			<ol>
+				<li><p>We use instance variable to give our object state</p></li>
+				<li><p>We modify the state of only or instance of BabyMonster "Lulu", when we call a method on "Lulu"</p></li>
+				<li><p>Our state is not mutable outside our class</p></li>
+				<li><p>Our instance variables are accessible within in any method in our class, yay!</p></li>
+				<li><p>Our instance state is not viewable outside our class unless we define a class that reveals it</p></li>
+				<li><p>Do you want your bank account info available outside your account login? say on the homepage?</p></li>
+			</ol>
+		<div id="">
+			<h3>Step 1. User stories/brainstorm a class</h3>
+			<img src="user_stories.png">
+		</div>
+			<ul>
+				<li><p>Properties of our object that we would like to log are instance variables</p></li>
+				<li><p>Properties that we would like to change are instance variables</p></li>
+			</ul>
+		<div id="">
+			<h3>Step 2. Make some methods for our class</h3></li>
+			<img src="some_methods.png">
+			<img src="more_methods.png">
+		</div>
+			<ul>
+			</ul>
+		<div id="">
+		<h3>Step 3. Call our instance "Lulu" with method</h3>
+			<img src="function_calls.png">
+		</div>	
+			<ul>
+				<li><p>Terminal output:</p></li>
+			</ul>
+		<div id="">
+			<img src="baby_out.png">
+		</div>	
+			<ul>
+				<li><p>What happens if we don't initialize our cards array?</p></li>
+			</ul>
+			<div id="">
+				<img src="error_cardsarray2.png">
+				<img src="error.drawcards.png">
+		</div>
+			<ul>
+				<li><p>Even though we are passing cards array in, we still gota initialize it. Otherwise our functions don't know what to do with it.</p></li>
+			</ul>
+		<div id="">
+			<img src="error.cardsarray.png">
+		</div>	
+			<ul>
+				<li><p>What happens if you don't initialize a variable with '@'</p></li>
+			</ul>
+		<div id="">
+			<img src="error.heads.png">
+			<img src="error.heads.term.png">
+		</div>	
+			<ul>
+				<li><p>Oh nils!#*^%!</p></li>
+				<li><p>We get a domino effect of undefined variables</p></li>
+				<li><p>Our method grow_heads no longer knows what 'heads' means it's a nil class!</p></li>
+			</ul>
+				<ul>
+				<li><p>What if we try to access a variable outside the class?</p></li>
+			</ul>
+		<div id="">
+			<img src="instnace.scope.png">
+			<img src="instancescope.term.png">
+		</div>	
+			<ul>
+				<li><p>Instance variables protect the mutability of objects outside the class</p></li>
+				<li><p>Access is restricted to method calls that are written to access and modify variables!</p></li>
+				<li><p>Whew! Safe!</p></li>
+			</ul>	
+			<h2>hell-no you can't mess up my variables!</h2> 
+			<h3>Review:</h3>
+			<ul>
+				<li><p>Ruby's instance variables are never public</p></li>
+				<li><p>Two different objects, even if they belong to the same class, are allowed to have different values for their instance variables. </p></li>
+				<li><p>From outside the object, instance variables cannot be altered or even observed</p></li>
+			</ul>	
+			<div id="post-info">
+				<ul>
+					<li><p>Posted by: Shakrah Yves Date: 8/2/14</p></li>
+				</ul>
+			</div>
+
+				<li id="back"><a href="...">back to top</a><li>
+			</div> <!--content-->
+
+			<div id="sidebar">
+				<h3 id="archive">Archive</h3>
+				<ul class="link-style">
+					<li><a href="https://github.com/">blog topic/date
+					</a>Github.com</li>
+				</ul>
+			</div>
+
+			<div id="footer">
+				<ul class="link-style">
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+
+		</div> <!--container-->
+	</body>
+</html>
