@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>Lets mainline</title>
+		<link rel="stylesheet" href="./week7_technical.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+	</head> 
+	<body>
+		<div id="container">
+			<div id="header">
+				<ul class="link-style">
+					<li><a href="http://xkcd.com/327/">xkcd</a></li>
+				</ul>
+			</div>
+		<div id="content">
+			<h1 id="topic">SQL Injections are Bad</h1> 
+			<h2>why and how to stop injections</h2>
+			<h3>Why?!</h3>
+			<ol>
+				<li><p>OH noes! SOME people like to insert destructive statements into input fields to break tables!</p></li>
+				<li><p>It is one of the top 10 security issues</p></li>
+			</ol>
+		<div id="">
+		<ol>
+			<h3>HOW do they do it?</h3>
+			<h2>1. Classic sequel injection</h2>
+				<li><p>1. Incorrectly filtered strings</p></li>
+				<li><p>-that include equality tests, and SQL actions</p></li>
+				<li><p>2. Incorrect use of type or no filtering of type</p></li>
+				<li><p>-allows users to pass in a SQL command</p></li>
+			<h2>2. Blind injection</h2>
+				<li><p>the attacker inserts a logical statement in order to test for vulnerability</p></li>
+				<li><p></p></li>
+				<li><p></p></li>
+			<h2>3. Data base management system specific SQLI</h2>
+			<li><p></p></li>
+			<h2>4. Compound</h2>
+			<li><p>Injection and other nasty things!</p></li>
+		</ol>
+	
+		<div id="">
+			<h3>What can I do? BEAR spray!!</h3></li>
+			<ol>
+				<li><p>1. Escaping</p></li>
+				<li><p>-escape characters that have a special meaning in sequel. ex 'DUMP'</p></li>
+				<li><p>2. Parameterized statements</p></li>
+				<li><p>-use bind variables, input will not be evaluated immediately and will be passed to another check to be escaped</p></li>
+				<li><p>3. Pattern check</p></li>
+				<li><p>-Finally! enforcement of type with checking for pattern recognition</p></li>
+				<li><p>ex. is 'DUMP table' an int?</p></li>
+				<li><p>4. Database permissions</p></li>
+				<li><p>-Limiting the permissions on the database login!</p></li>
+				<li><p>ex. deny SELECT ON ...</p></li>
+			</ol>
+			
+			<div id="post-info">
+				<ul>
+					<li><p>Posted by: Shakrah Yves Date: 8/9/14</p></li>
+				</ul>
+			</div>
+
+				<li id="back"><a href="...">back to top</a><li>
+			</div> <!--content-->
+
+			<div id="sidebar">
+				<h3 id="archive">Archive</h3>
+				<ul class="link-style">
+					<li><a href="https://github.com/">blog topic/date
+					</a>Github.com</li>
+				</ul>
+			</div>
+
+			<div id="footer">
+				<ul class="link-style">
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+
+		</div> <!--container-->
+	</body>
+</html>
