@@ -1,0 +1,70 @@
+
+
+body{
+	background-image: url(http://i2.wp.com/listverse.com/wp-content/uploads/2013/10/solar-system.jpg?fit=1024%2C1024);
+	background-repeat: no-repeat; 
+	content: 100%;
+	width: 1400px;
+	font-size: 30px;
+	background-size: 100%;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 2px 2px #000000;
+	background-color: #000000;
+}
+
+header{
+	margin: 10px;
+}
+
+.link-style li {
+	/*display: inline;*/
+	margin-before: 45px;	
+	margin-after: 45px;
+	list-style-type: none;
+	/*padding: 5px;*/
+
+}
+/*unvisited*/
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding:;
+	line-height: ;
+}
+
+.transition-group p { opacity: 0.0;
+}
+.transition-group:hover .hover{
+	opacity: 1.0
+}
+/*when t-group also has active class*/
+.transition-group.active .active{
+	opacity: 1.0
+}
+
+.who {font-size: 50;
+	font-weight: bolder;
+	color:#FF6600;
+	outline-color: ;
+}
+
+.when {font-weight: 35;
+	font-style: italic;
+	color:#FF6600;
+}
+
+#sun {
+	position:absolute;
+	left: 600px;
+	top: 300px;
+	width:50px;
+	height:50px;
+	margin:auto;
+	background-color:;
+}
+
+#sun p{
+	width: 700px;
+}
+
+
