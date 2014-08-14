@@ -18,150 +18,63 @@
 			<div id="content">
 
 			<h2>GIT</h2>
-			<table style="width:600px">
+			<table style="width:900px">
 				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
+				  <td>git commit --amend</td>
+				  <td >git add --edit</td> 
+				  <td>git revert HEAD^</td>
 				</tr>
 				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
+				  <td >git log</td> 
+				  <td>git checkout -b <branchName></td>
+				  <td >git checkout -b <localBranchName> origin/<remoteBranchName></td> 
+				 </tr>
 				<tr>
+					<td>git checkout -- <fileName></td> 
+				  <td >git log -p
+--Show recent commits, most recent on top, with full diffs.</td> 
+				  <td>git grep regexp</td>
+				 </tr>
+				 <tr>
+				  <td>git init</td>
+				  <td >git pull remote</td> 
+				  <td>git cat</td>
+				 </tr>
+				 <tr id="white">
+				  <td >git diff --cached</td> 
+				  <td>git branch new-branch</td>
+				  <td >git checkout -b new-branch</td> 
+				 </tr>
+				  <td>git merge branch</td> 
+				  <td >git reset</td> 
 				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
 				</tr>
 				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
 				  <td >$git log</td> 
 				  <td>$git cat</td>
 				  <td >$git log</td> 
+				</tr>
+				<tr>
+				  <td>git stash</td>
+				  <td >git stash list</td> 
+				  <td>git stash pop [stash]</td>
 				</tr>
 			</table>
 
-			<h2>Sublime</h2>
-			<table style="width:600px">
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-			</table>
-
-			<h2>JS</h2>
-			<table style="width:600px">
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-			</table>
-
-			<h2>Ruby</h2>
-			<table style="width:600px">
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-				<tr id="white">
-				  <td>$</td>
-				  <td >$git log</td> 
-				  <td>$</td> 
-				  <td >$git log</td> 
-				  <td>$</td>
-				</tr>
-				<tr>
-				  <td>$git pull</td>
-				  <td >$git log</td> 
-				  <td>$git cat</td>
-				  <td >$git log</td> 
-				</tr>
-			</table>
-			
-			
+			<h2>JS snippets</h2>
+			<ul>
+				  <li><p>function myFunction(a, b) { return a * b;} //function</p></li>
+				  <li><p>var person = {firstName:John, lastName:Doe}; //object</p></li> 
+				  <li><p>for (i = 0; i < cars.length; i++) { 
+    				text += cars[i] + "<br>";}</p></li>
+				  <li><p>for (x in person) {text += person[x]}</p></li>
+				  <li><p>while (condition) {code block to be executed}</p></li>
+				  <li><p>for (i = 0; i < 10; i++) {if (i == 3) {break;}
+    				text += "The number is " + i + "<br>";}</p></li>
+				  <li><p>var patt = /w3schools/i</p></li>
+				  <li><p>var n = str.search("W3Schools");</p></li>
+				  <li><p>document.getElementById("demo").innerHTML = fruits.valueOf();</p></li>
+			</ul>
 			<div class="post-info">
 				<ul>
 					<li><p>Posted by: Shakrah Yves Date-Posted 8/13/14</p></li>
