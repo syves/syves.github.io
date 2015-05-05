@@ -11,16 +11,10 @@
   </h1>
 
   <dl id="contact-details">
-    <dt class="street-address">Street address</dt>
-    <dd class="street-address">19 Pearl Street #4</dd>
     <dt class="city">City</dt>
     <dd class="city">San Francisco</dd>
     <dt class="state">State</dt>
     <dd class="state"><abbr title="California">CA</abbr></dd>
-    <dt class="zip-code">ZIP code</dt>
-    <dd class="zip-code">94103</dd>
-    <dt class="phone">Phone</dt>
-    <dd class="phone"><a href="tel:+1-415-370-7789"><span>415</span><span>370</span><span>7789</span></a></dd>
     <dt class="email">Email</dt>
     <dd class="email"><a href="mailto:shakrah.yves@gmail.com">shakrah.yves@gmail.com</a></dd>
     <dt class="github">GitHub</dt>
